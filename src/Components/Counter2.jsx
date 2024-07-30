@@ -15,6 +15,7 @@ const Counter2 = () => {
         width: "40%",
         height: "80vh",
         border: "5px solid red",
+        borderRadius:"2px",
         marginRight:"20px"
       }}
     >
