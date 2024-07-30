@@ -41,7 +41,7 @@ export function Counter() {
           alignItems: "center",
           justifyContent: "center",
           border: "5px solid red",
-          borderRadius:"2px",
+          borderRadius:"10px",
           height: " 60vh",
         }}
       >
