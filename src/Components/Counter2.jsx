@@ -14,7 +14,7 @@ const Counter2 = () => {
         justifyContent: "center",
         width: "40%",
         height: "80vh",
-        border: "5px solid red",
+        border: "5px solid gray",
         borderRadius:"10px",
         marginRight:"20px"
       }}
