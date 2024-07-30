@@ -1,5 +1,5 @@
 import React from "react";
-import { useSelector} from "react-redux";
+import { useSelector } from "react-redux";
 const Counter2 = () => {
   const name = useSelector((state) => state.counter.name);
   const email = useSelector((state) => state.counter.email);
@@ -15,16 +15,45 @@ const Counter2 = () => {
         width: "40%",
         height: "80vh",
         border: "5px solid gray",
-        borderRadius:"10px",
-        marginRight:"20px"
+        borderRadius: "10px",
+        marginRight: "20px",
       }}
     >
       <div>
-        <div style={{ position:"relative", border: "1px solid black",marginLeft:"35%", borderRadius:"50%", height: "150px", width: "150px" }}>
+        <div
+          style={{
+            position: "relative",
+            border: "1px solid black",
+            marginLeft: "35%",
+            borderRadius: "50%",
+            height: "150px",
+            width: "150px",
+          }}
+        >
           {profileimg ? (
-            <img style={{ position:"absolute",height: "150px", width: "150px",borderRadius:"50%" , objectFit:"cover"}} src={profileimg} alt="Profile" />
+            <img
+              style={{
+                position: "absolute",
+                height: "150px",
+                width: "150px",
+                borderRadius: "50%",
+                objectFit: "cover",
+              }}
+              src={profileimg}
+              alt="Profile"
+            />
           ) : (
-            <h3 style={{ position:"absolute", top:"50px" , left:"6px", color:"gray",fontSize:"18px" }}>No image selected</h3>
+            <h3
+              style={{
+                position: "absolute",
+                top: "50px",
+                left: "6px",
+                color: "gray",
+                fontSize: "18px",
+              }}
+            >
+              No image selected
+            </h3>
           )}
         </div>
 
@@ -38,7 +67,7 @@ const Counter2 = () => {
             marginLeft: "30px",
           }}
         >
-         Name: {name}
+          Name: {name}
         </h3>
         <h3
           style={{
@@ -48,7 +77,7 @@ const Counter2 = () => {
             marginLeft: "30px",
           }}
         >
-         Email: {email}
+          Email: {email}
         </h3>
         <h3
           style={{
