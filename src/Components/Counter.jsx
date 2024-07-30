@@ -40,7 +40,7 @@ export function Counter() {
           lineHeight: "1",
           alignItems: "center",
           justifyContent: "center",
-          border: "5px solid red",
+          border: "5px solid gray",
           borderRadius:"10px",
           height: " 60vh",
         }}
